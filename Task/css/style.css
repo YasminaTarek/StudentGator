@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../Images/Group\ 1159.svg), url(../Images/Group\ 1386.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    background-size: 400px 500px, 300px 400px;
+}
+input::placeholder {
+    color: #828282;
+}
+/*nav bar*/
+nav .cont {
+    width: 95%;
+    margin: auto;
+}
+nav .nav-link {
+    color: #000000;
+    opacity: 0.6;
+    margin: 0 20px;
+    text-align: center;
+}
+nav .programs {
+    color: #1C85C8 !important;
+}
+nav .login {
+    width: 103px;
+    color: #fff;
+    background-color: #1C85C8;
+    box-shadow: 0px 1px 10px #1C85C833;
+    border-radius: 5px;
+}
+.navbar-toggler {
+    top: 0;
+    right: 0;
+}
+/*end nav*/
+
+
+/*inputs*/
+.inputs form {
+    box-shadow: 0px 0px 25px #00000029;
+}
+.inputs form input {
+    padding: 25px 15px !important;
+}
+.inputs form .data-list {
+    border-left: 1px solid #283C8C !important;
+}
+.inputs form .btn {
+    background-color: #1C85C8;
+    border-radius: 0px 5px 5px 0px;
+}
+.inputs form .fa-chevron-down {
+    right: 18%;
+    top: 17px;
+    z-index: 5;
+    cursor: pointer;
+    opacity: 0.6;
+}
+@media screen and (min-width: 768px){
+    .w75 {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 768px){
+    .w75 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .inputs form .data-list {
+        border-top: 1px solid #283C8C !important;
+        border-left: 0 !important;
+    }
+    .inputs form .btn {
+        border-radius: 0px 0px 5px 5px;
+    }
+    .inputs form .fa-chevron-down {
+        right: 5%;
+    }
+}
+/*end form*/
+
+
+/*data section*/
+.filter .radio-text{
+    color: #000000;
+    opacity: 0.6;
+}
+section p {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    opacity: 0.6;
+}
+section .filter, section .data {
+    box-shadow: 0px 0px 25px #00000029;
+    border-radius: 10px;
+}
+section input {
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 5px;
+}
+section .fa-chevron-down {
+    right: 15px;
+    top: 58px;
+    z-index: 5;
+    cursor: pointer;
+    opacity: 0.6;
+}
+section .btn {
+    background-color: #1C85C8;
+    box-shadow: 0px 1px 10px #1C85C833;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+section .data .name {
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    color: #222222;
+    opacity: 1;
+}
+section .data .school {
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    color: #000000;
+    opacity: 0.6;
+}
+.data .fee {
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    color: #000000;
+    opacity: 0.4;
+}
+.data .blue {
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    color: #283C8C;
+    opacity: 1;
+}
+/*end data section*/
+
+
+/*footer*/
+footer{
+    letter-spacing: 0.32px;
+    color: #000000;
+    opacity: 0.4;
+    font-size: 14px;
+}
+/*end footer*/
